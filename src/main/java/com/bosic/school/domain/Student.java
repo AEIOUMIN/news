@@ -19,6 +19,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Entity
 @Table
 public class Student implements Serializable{
+	//
 	// 字段，属性
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
